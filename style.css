@@ -1,0 +1,25 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: calc(4 * 100px);
+	height: calc(4 * 100px);
+	margin-bottom: 300px;
+}
+
+.cell {
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 25%;
+	height: 25%;
+}
