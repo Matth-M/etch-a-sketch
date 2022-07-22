@@ -12,9 +12,9 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: calc(4 * 100px);
-	height: calc(4 * 100px);
-	margin-bottom: 300px;
+	width: 600px;
+	height: 600px;
+	margin: 150px 0;
 }
 
 .cell {
